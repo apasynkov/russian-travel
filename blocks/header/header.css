@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 80px;
+}
