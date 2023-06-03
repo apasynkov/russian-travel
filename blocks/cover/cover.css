@@ -1,0 +1,9 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 92px;
+    box-sizing: border-box;
+}

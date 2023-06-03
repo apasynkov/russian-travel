@@ -1,0 +1,8 @@
+.place__image {
+    max-height: 460px;
+    max-width: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+}
