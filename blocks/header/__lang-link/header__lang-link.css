@@ -1,14 +1,26 @@
 .header__lang-link {
-    list-style: none;
-    margin-right: 18px;
-    font-family: 'Inter', Arial, sans-serif;
+    padding-right: 18px;
     font-size: 24px;
     line-height: 28px;
     color: #fff;
     font-weight: 400;
     text-decoration: none;
+    border: 1px red solid;
+    -webkit-font-smoothing: antialiased; /*сглаживает кастомные шрифты*/
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%; /*пропорциональное изменение шрифтов при изменении масштаба страницы*/
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility; /*Свойство, которое задействует важные инструменты улучшения читаемости текста, в том числе кёрнинг и лигатуры.*/
 }
 
 .header__lang-link:last-child {
-    margin: 0;
+    padding-right: 0;
+}
+
+@media screen and (max-width:767px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+    }
 }

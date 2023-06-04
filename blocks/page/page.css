@@ -4,8 +4,10 @@
     font-family: 'Inter', Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     box-sizing: border-box;
     background: #2A2C2F;
     position: relative;
-    justify-content: center;
+    border: 1px solid red;
 }

@@ -1,8 +1,10 @@
 .footer__links {
     display: grid;
-    grid-template-columns: repeat(5, min-content);
+    grid-template-columns: repeat(5, minmax(186px, min-content));
     column-gap: 18px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
+    border: 1px solid red;
 }

@@ -1,9 +1,17 @@
 .footer__copyright {
     margin: 0;
-    align-self: end;
-    justify-self: start;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
     color: white;
+    text-align: right;
+    width: max-content;
+    display: flex;
+    align-self: center;
+}
+
+@media screen and (max-width:767px) {
+    .footer__copyright {
+        line-height: 14px;
+    }
 }

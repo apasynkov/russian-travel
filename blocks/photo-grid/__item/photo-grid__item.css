@@ -1,6 +1,7 @@
 .photo-grid__item {
-    max-width: 284px;
-    max-height: 213px;
+    max-width: 352px;
+    max-height: 264px;
     background-size: cover;
-
+    box-sizing: border-box;
+    width: 100%;
 }

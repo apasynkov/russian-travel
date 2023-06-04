@@ -1,7 +1,29 @@
 .lead {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     position: relative;
     box-sizing: border-box;
     align-items: center;
+    width: 100%;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width:1279px) {
+    .lead {
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .lead {
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .lead {
+        margin-bottom: 64px;
+    }
 }
