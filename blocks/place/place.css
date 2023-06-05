@@ -2,21 +2,28 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 47.7%));
     gap: 48px 40px;
-    margin: 0 148px 92px;
+    margin: 0 148px 80px;
     position: relative;
     box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.place:last-child {
+    margin-bottom: 0;
 }
 
 @media screen and (max-width:1279px) {
     .place {
-        margin: 0 48px 92px;
+        margin: 0 48px 80px;
         gap: 48px 32px;
     }
 }
 
 @media screen and (max-width:1023px) {
     .place {
-        margin: 0 24px 90px;
+        margin: 0 24px 73px;
         gap: 48px 28px;
 
     }
@@ -24,7 +31,7 @@
 
 @media screen and (max-width:767px) {
     .place {
-        margin: 0 16px 66px;
+        margin: 0 16px 50px;
         gap: 32px;
     }
 }

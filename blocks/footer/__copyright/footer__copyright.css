@@ -19,7 +19,6 @@
 
 @media screen and (max-width:690px) {
     .footer__copyright {
-        margin: 0;
         align-self: start;
     }
 }
