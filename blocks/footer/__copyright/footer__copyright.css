@@ -20,5 +20,6 @@
 @media screen and (max-width:690px) {
     .footer__copyright {
         align-self: start;
+        margin-top: 0;
     }
 }
