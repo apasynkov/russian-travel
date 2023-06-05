@@ -1,10 +1,15 @@
 .footer__links {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(186px, min-content));
-    column-gap: 18px;
-    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    border: 1px solid red;
+    margin: 0;
+}
+
+@media screen and (max-width:690px) {
+    .footer__links {
+        flex-direction: column;
+    }
 }

@@ -9,7 +9,6 @@
     min-height: fit-content;
     max-width: 1280px;
     height: auto;
-    border: 1px red solid;
 }
 
 @media screen and (max-width:1279px) {
